@@ -1,0 +1,11 @@
+.login-page {
+    display: flex;
+
+    > input {
+        display: block;
+    }
+
+    > button {
+      display: block;
+    }
+}
