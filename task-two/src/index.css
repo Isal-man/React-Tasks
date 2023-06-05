@@ -1,11 +1,28 @@
 .login-page {
-    display: flex;
+    display: block;
 
     > input {
         display: block;
+        margin: 10px 0 10px;
+        height: 32px;
+        width: 356px;
     }
 
     > button {
       display: block;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding-inline: 10px;
+      height: 32px;
+      width: 128px;
+
+      &:hover {
+        background-color: transparent;
+        color: black;
+        border: 2px solid;
+        border-color: black;
+      }
     }
 }
